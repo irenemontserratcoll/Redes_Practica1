@@ -44,7 +44,7 @@ TIMEOUT = 2                 # s sin recibir nada -> se da la conexión por perdi
 # Si pasan más de estos segundos sin datos (reintentos incluidos), se da por
 # hecho que URSim se ha cerrado y el programa termina. Un reinicio de URSim
 # más rápido que esto se reengancha solo, como pide la defensa.
-TIEMPO_MAX_SIN_DATOS = 15
+TIEMPO_MAX_SIN_DATOS = 45
 # ============ FIN CIERRE DE URSIM (NUEVO) ============
 ESPERA_RECONEXION = 2       # s entre intentos de reconexión
 ID_ROBOT_SIM = 0            # robot que crea UR3eRG2() en el origen

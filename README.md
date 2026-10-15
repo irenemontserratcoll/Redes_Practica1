@@ -71,7 +71,7 @@ Para salir: Ctrl+C, cerrar la ventana de PyBullet o, en `BloqueD.py`, el comando
 ## Comportamiento ante desconexiones
 
 - Si se reinicia URSim o se corta la red, los programas reconectan solos.
-- Si pasan más de 15 s sin datos (`TIEMPO_MAX_SIN_DATOS`), dan por hecho que
+- Si pasan más de 45 s sin datos (`TIEMPO_MAX_SIN_DATOS`), dan por hecho que
   URSim se ha cerrado y terminan. En `BloqueC.py` solo terminan cuando todos
   los robots llevan ese tiempo sin datos; un robot caído no detiene a los demás.
 - Cerrar solo la ventana de PolyScope no basta para que el programa lo
