@@ -17,6 +17,12 @@ cd C:\Users\Estudiante\Desktop\Irene_redes\Practica1
 venv\Scripts\activate
 python BloqueD.py
 
+Antes de enviar órdenes, prepara URSim:
+
+Robot en RUNNING (ON y START).
+Ajustes → Sistema → Control remoto activado y Remoto seleccionado arriba a la derecha.
+La interfaz habilitada en Ajustes → Seguridad → Servicios.
+
 Menu de uso del Bloque D
 Comandos (escribe la letra y pulsa Enter):
   g            guardar la posición ACTUAL del robot como punto
