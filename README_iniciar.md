@@ -16,3 +16,8 @@ Como lanzar BLOQUE D
 cd C:\Users\Estudiante\Desktop\Irene_redes\Practica1
 venv\Scripts\activate
 python BloqueD.py
+
+Comando para subir los cambios a github
+git add -A
+git commit -m "Mensje"
+git push
