@@ -1,0 +1,8 @@
+# Entorno virtual y cachés de Python
+venv/
+__pycache__/
+*.pyc
+
+# Material del profesor y de Universal Robots (no se publica)
+*.whl
+*.pdf
